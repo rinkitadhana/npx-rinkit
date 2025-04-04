@@ -1,0 +1,29 @@
+{
+  "name": "npx-rinkit",
+  "version": "1.0.0",
+  "description": "CLI for Rinkit Adhana's portfolio",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "rinkit": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "repository": "git+https://github.com/rinkitadhana/npx-rinkit.git",
+  "keywords": [
+    "rinkit",
+    "npx-rinkit"
+  ],
+  "author": "Rinkit Adhana",
+  "license": "MIT",
+  "engine": {
+    "node": ">=14.16"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^8.1.2",
+    "open": "^8.0.6"
+  }
+}
