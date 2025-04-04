@@ -1,6 +1,6 @@
 {
-  "name": "npx-rinkit",
-  "version": "1.0.0",
+  "name": "rinkit",
+  "version": "1.0.1",
   "description": "CLI for Rinkit Adhana's portfolio",
   "main": "bin/index.js",
   "type": "module",
